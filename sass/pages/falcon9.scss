@@ -78,6 +78,11 @@
     width: 500px;
     margin-left: 13%;
     padding-top: 15%;
+
+    td {
+        background: transparent;
+        color: white;
+    }
 }
 
 .carrosselSlide {
@@ -122,16 +127,18 @@
 }
 
 @media (max-width: 375px) {
-    .titleFalcon9 {
-        font-size: 50;
+    .titleContent {
+        .titleFalcon9 {
+            font-size: 60px;
+        }
+
+        .subTitleFalcon {
+            font-size: 18px;
+        }
     }
 
     .falcon9Desc {
         font-size: 18px;
         line-height: auto;
-    }
-
-    .subTitleFalcon {
-        font-size: 16px;
     }
 }
